@@ -4,7 +4,7 @@ print("|===========================|\n"
       "|  Renamer by. Lonewolf239  |\n"
       "|       VK: @1blitz01       |\n"
       "|===========================|\n")
-folder_path = input("Enter the path to the folder in which you want to rename the files (example: C:\\\\test_folder)\n"
+folder_path = input("Enter the path to the folder in which you want to rename the files (example: C:\\test_folder)\n"
                     "Folder path: ")
 files = os.listdir(folder_path)
 files.sort()
@@ -16,4 +16,4 @@ for i, file_name in enumerate(files):
 input("\n\n|==============================|\n"
       "| The files have been renamed! |\n"
       "|    Press enter to exit...    |\n"
-      "|==============================|")
+      "|==============================|\n\n")
